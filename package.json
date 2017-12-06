@@ -1,6 +1,6 @@
 {
   "name": "bitrise-step-cordova-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Manipulate cordova config.xml main attributes",
   "main": "index.js",
   "scripts": {
