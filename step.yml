@@ -13,9 +13,9 @@ summary: |
   Manipulate cordova config.xml main attributes
 description: |
   Manipulate cordova config.xml main attributes
-website: https://github.com/platanus/bitrise-step-cordova-config/bitrise-step-cordova-config
-source_code_url: https://github.com/platanus/bitrise-step-cordova-config/bitrise-step-cordova-config
-support_url: https://github.com/platanus/bitrise-step-cordova-config/bitrise-step-cordova-config/issues
+website: https://github.com/platanus/bitrise-step-cordova-config
+source_code_url: https://github.com/platanus/bitrise-step-cordova-config
+support_url: https://github.com/platanus/bitrise-step-cordova-config/issues
 host_os_tags:
   - osx-10.10
   - ubuntu-16.04
@@ -29,14 +29,9 @@ host_os_tags:
 # You can find more information about project type tags in the Step Development Guideline:
 # https://github.com/bitrise-io/bitrise/blob/master/_docs/step-development-guideline.md
 #
-# project_type_tags:
-#   - ios
-#   - macos
-#   - android
-#   - xamarin
-#   - react-native
-#   - cordova
-#   - ionic
+project_type_tags:
+  - cordova
+  - ionic
 
 # Type tags are used for categorizing steps, for easier step discovery in Step Libraries.
 # You can find more information about type tags in the Step Development Guideline:
@@ -48,14 +43,6 @@ is_requires_admin_user: true
 is_always_run: false
 is_skippable: false
 run_if: ""
-
-deps:
-  brew:
-  - name: git
-  - name: wget
-  apt_get:
-  - name: git
-  - name: wget
 
 
 toolkit:
