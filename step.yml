@@ -8,11 +8,11 @@
 # - Bitrise CLI guides: http://devcenter.bitrise.io/bitrise-cli/
 
 title: |-
-  cordova-config
+  Manipulate cordova config.xml
 summary: |
-  Manipulate cordova config.xml main attributes
+  Manipulate cordova config.xml
 description: |
-  Manipulate cordova config.xml main attributes
+  Manipulate cordova config.xml
 website: https://github.com/platanus/bitrise-step-cordova-config
 source_code_url: https://github.com/platanus/bitrise-step-cordova-config
 support_url: https://github.com/platanus/bitrise-step-cordova-config/issues
