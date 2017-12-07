@@ -9,10 +9,10 @@ const CONFIG_FILE_PATH = process.env['config_path'] || 'config.xml'
 const NAME = process.env['name'];
 const ID = process.env['id'];
 
-const ANDROID_VERSION_CODE = process.env['android_versionCode'];
-const ANDROID_PACKAGE_NAME = process.env['android_packageName'];
-const IOS_BUNDLE_VERSION = process.env['ios_CFBundleVersion'];
-const IOS_BUNDLE_IDENTIFIER = process.env['ios_CFBundleIdentifier'];
+const ANDROID_VERSION_CODE = process.env['android_version_code'];
+const ANDROID_PACKAGE_NAME = process.env['android_package_name'];
+const IOS_BUNDLE_VERSION = process.env['ios_bundle_version'];
+const IOS_BUNDLE_IDENTIFIER = process.env['ios_bundle_identifier'];
 
 // Load and parse the config.xml
 const config = new Config(path.join(SOURCE_PATH, CONFIG_FILE_PATH));

@@ -51,7 +51,7 @@ toolkit:
 
 
 inputs:
-  - name: $CORDOVA_APP_NAME
+  - name: $CORDOVA_NAME
     opts:
       title: Cordova application name
       summary: Modify the element `<name></name>` in the config.xml file
@@ -63,25 +63,25 @@ inputs:
       summary: Modify the attribute `id` the config.xml file
       is_expand: true
       is_required: false
-  - android_versionCode: $CORDOVA_ANDROID_VERSIONCODE
+  - android_version_code: $CORDOVA_ANDROID_VERSION_CODE
     opts:
       title: Android version code
       summary: Modify the attribute `android-versionCode` in the config.xml file
       is_expand: true
       is_required: false
-  - android_packageName: $CORDOVA_ANDROID_PACKAGENAME
+  - android_package_name: $CORDOVA_ANDROID_PACKAGE_NAME
     opts:
       title: Android package name
       summary: Modify the attribute `android-packageName` in the config.xml file
       is_expand: true
       is_required: false
-  - ios_CFBundleVersion: $CORDOVA_IOS_BUNDLEVERSION
+  - ios_bundle_version: $CORDOVA_IOS_BUNDLE_VERSION
     opts:
       title: iOS bundle version
       summary: Modify the attribute `ios-CFBundleVersion` in the config.xml file
       is_expand: true
       is_required: false
-  - ios_CFBundleIdentifier: $CORDOVA_IOS_BUNDLEIDENTIFIER
+  - ios_bundle_identifier: $CORDOVA_IOS_BUNDLE_IDENTIFIER
     opts:
       title: iOS bundle identifier
       summary: Modify the attribute `ios-CFBundleIdentifier` in the config.xml file
