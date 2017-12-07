@@ -87,3 +87,9 @@ inputs:
       summary: Modify the attribute `ios-CFBundleIdentifier` in the config.xml file
       is_expand: true
       is_required: false
+  - config_path: $CORDOVA_CONFIG_PATH
+    opts:
+      title: Cordova config.xml file location
+      summary: Define the location of the config.xml files. Defaults to `./config.xml`
+      is_expand: true
+      is_required: false
