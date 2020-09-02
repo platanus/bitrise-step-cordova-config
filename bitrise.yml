@@ -40,7 +40,14 @@ workflows:
           file if you would not specify another value.
         run_if: true
         inputs:
-        - example_step_input: Example Step Input's value
+        - name:
+        - id:
+        - version: "0.9.0"
+        - android_version_code:
+        - android_package_name:
+        - ios_bundle_version:
+        - ios_bundle_identifier:
+        - config_path: ./config.xml
     - script:
         inputs:
         - content: |

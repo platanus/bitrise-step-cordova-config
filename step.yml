@@ -63,6 +63,12 @@ inputs:
       summary: Modify the attribute `id` the config.xml file
       is_expand: true
       is_required: false
+  - version: $CORDOVA_VERSION
+    opts:
+      title: Cordova version
+      summary: Modify the attribute `version` the config.xml file
+      is_expand: true
+      is_required: false
   - android_version_code: $CORDOVA_ANDROID_VERSION_CODE
     opts:
       title: Android version code
